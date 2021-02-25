@@ -1,0 +1,29 @@
+{
+  "name": "es_lint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinatfe/ES_LINT.git"
+  },
+  "keywords": [
+    "es_lint"
+  ],
+  "author": "Rinatfe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinatfe/ES_LINT/issues"
+  },
+  "homepage": "https://github.com/rinatfe/ES_LINT#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
